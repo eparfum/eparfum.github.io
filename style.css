@@ -33,18 +33,26 @@ main {
   flex: 1 1 auto;
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
   align-items: center;
 }
 
+#content {
+  flex: 1 1 auto;
+}
+
 footer {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
   align-items: center;
   gap: 1em;
   margin-bottom: 1em;
+}
+
+#qrcode {
+  width: 100px;
 }
 
 #logo {
