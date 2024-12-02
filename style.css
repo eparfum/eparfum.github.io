@@ -33,7 +33,7 @@ main {
   flex: 1 1 auto;
   text-align: center;
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
 }
@@ -44,7 +44,7 @@ main {
 
 footer {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   gap: 1em;
@@ -52,7 +52,7 @@ footer {
 }
 
 #qrcode {
-  width: 100px;
+  width: 150px;
 }
 
 #logo {
@@ -65,4 +65,17 @@ footer {
   border-radius: 10px;
   padding: 1em;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contact h3 {
+  font-size: medium;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
