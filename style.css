@@ -17,7 +17,6 @@ body {
 }
 
 #root {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,7 +43,7 @@ main {
 
 footer {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1em;
@@ -78,4 +77,17 @@ footer {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+img.background {
+  position: absolute;
+  z-index: -1;
+  filter: opacity(0.15);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
 }
